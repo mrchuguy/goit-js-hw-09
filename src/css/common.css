@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -10,9 +12,49 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  padding: 10px;
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+input {
+  padding: 4px;
+  font-size: 20px;
+}
+button {
+  padding: 4px;
+  font-size: 20px;
+}
+.timer {
+  display: flex;
+  margin-top: 50px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  font-weight: 500;
+  text-align: center;
+}
+
+.value {
+  font-size: 50px;
+  line-height: 1;
+  padding: 0 20px;
+}
+
+.label {
+  text-transform: uppercase;
+  font-size: larger;
 }
